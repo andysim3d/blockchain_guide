@@ -18,7 +18,7 @@ HMAC 主要问题是需要共享密钥。当密钥可能被多方拥有的场景
 
 1983 年由 David Chaum [提出](http://www.hit.bme.hu/~buttyan/courses/BMEVIHIM219/2009/Chaum.BlindSigForPayment.1982.PDF)。签名者在无法看到原始内容的前提下对信息进行签名。
 
-盲签名主要是为了实现防止追踪（unlinkability），签名者无法将签名内容和结果进行对应。典型的实现包括 [RSA 盲签名](https://en.wikipedia.org/wiki/RSA_(algorithm))。
+盲签名主要是为了实现防止追踪（unlinkability），签名者无法将签名内容和结果进行对应。典型的实现包括 [RSA 盲签名](https://en.wikipedia.org/wiki/RSA_(algorithm) )。
 
 ### 多重签名
 n 个持有人中，收集到至少 m 个（$$n\ge{}m\ge{}1$$）的签名，即认为合法，这种签名被称为多重签名。
